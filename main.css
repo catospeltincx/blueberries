@@ -1,0 +1,177 @@
+@font-face {
+    font-family: "Hobby Club Italic";
+    src: url(src/fonts/HobbyClub3-SharpItalic.otf);
+}
+
+@font-face {
+    font-family: "Hobby Club Regular";
+    src: url(src/fonts/HobbyClub3-Sharp.otf);
+}
+
+@font-face {
+    font-family: Old Standard;
+    src: url(src/fonts/OldStandard-Italic.ttf);
+}
+
+@font-face {
+    font-family: Pic Nic;
+    src: url(src/fonts/PicNic-Regular.otf);
+}
+
+/* PRE DINGEN */
+
+html {
+    background-color: black;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+p::-moz-selection { /* Code for Firefox */
+    color: rgb(44, 21, 255);
+    background: rgb(248, 48, 255);
+  }
+  
+p::selection {
+    color: rgb(44, 21, 255);
+    background: rgb(247, 0, 255);
+}
+
+mark {
+    font-family: "Hobby Club Italic";
+    background-color: rgba(255, 255, 255, 0);
+}
+
+img {
+    margin: 0;
+}
+
+p {
+    font-family: "Hobby Club Regular";
+    margin: 0 1rem 1rem 1rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    max-width: 500px;
+}
+
+
+.black {
+    background-color: black;
+}
+
+.black p {
+    color: white;
+}
+
+.speeldata li{
+    color: rgb(0, 0, 0);
+}
+
+.black mark {
+    color: white;
+}
+
+h1.sub-title {
+    text-align: center;
+    list-style: none;
+    -webkit-text-stroke: 2px solid rgb(0, 183, 255);
+    width: fit-content;
+    margin: auto 0 auto 0;
+    color: rgb(0, 183, 255);
+    padding: 1rem;
+    font-family: "Hobby Club Italic";
+    font-size: 1.5rem;}
+
+
+
+/* DESCRIPTION */
+
+.title {
+    font-family: "Pic Nic";
+    font-size: 2.7rem;
+    line-height: 2.6rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    position: absolute;
+    color: rgb(0, 183, 255);
+}
+
+.promobeeld  {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 100vw;
+}
+
+/* .description p {
+    color: rgb(0, 183, 255);
+}
+
+.description mark {
+    color: rgb(0, 183, 255);
+} */
+
+/* LISTS */
+.container-fix {
+    display: flex;
+    flex-direction: row;
+}
+
+.credits {
+    margin: 0 1rem 2rem 1rem;
+-moz-column-count: 2;
+-moz-column-gap: 20px;
+-webkit-column-count: 2;
+-webkit-column-gap: 20px;
+column-count: 2;
+column-gap: 20px;
+max-width: 500px;
+
+}
+
+.list-title {
+    list-style: none;
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.name {
+    margin-left: 2rem;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    text-align: left;
+    font-family: "Hobby Club Regular";
+    font-size: 1rem;
+    line-height: 1.3rem;
+    list-style: none;
+    margin-left: 0.1rem;
+    color: white;
+}
+
+.speeldata{
+    margin: 1rem;
+-moz-column-count: 2;
+-moz-column-gap: 20px;
+-webkit-column-count: 2;
+-webkit-column-gap: 20px;
+column-count: 2;
+column-gap: 20px;
+max-width: 500px;
+margin-bottom: 50px;
+}
+
+.speeldata p {
+    color: black;
+}
+
+.speeldata .list-title {
+    list-style: none;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
