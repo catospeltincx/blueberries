@@ -93,9 +93,8 @@ h1.sub-title {
     font-size: 2.7rem;
     line-height: 2.6rem;
     text-align: center;
-    margin-top: 1rem;
+    margin-top: 0;
     margin-bottom: 2rem;
-    position: absolute;
     color: rgb(0, 183, 255);
 }
 
@@ -104,14 +103,6 @@ h1.sub-title {
     margin: 0 auto 0 auto;
     width: 100vw;
 }
-
-/* .description p {
-    color: rgb(0, 183, 255);
-}
-
-.description mark {
-    color: rgb(0, 183, 255);
-} */
 
 /* LISTS */
 .container-fix {
@@ -175,3 +166,41 @@ margin-bottom: 50px;
     list-style: none;
     -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
+
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+   .title {
+    margin: 0 auto 2rem auto;
+    font-size: 5rem;
+    line-height: 4.2rem;
+   }
+
+   body {
+    background-color: black;
+   }
+
+   .promobeeld{
+    max-width: 543px;
+   }
+
+   .margin{
+    height: 2rem;
+   }
+
+   .text {
+    margin: 0 35% 0 35%;
+   }
+
+   .speeldata, .description {
+    background-color: white;
+    margin: 1rem;
+   }
+
+   .credits {
+    padding-bottom: 20px;
+   }
+
+
+
+
+  }
