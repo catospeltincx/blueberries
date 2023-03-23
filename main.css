@@ -78,8 +78,6 @@ mark::selection {
     background: rgb(247, 0, 255);
 }
 
-
-
 mark {
     font-family: "Hobby Club Italic";
     background-color: rgba(255, 255, 255, 0);
@@ -97,12 +95,17 @@ p {
     max-width: 500px;
 }
 
+.name {
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
 .black {
     background-color: black;
 }
 
 .white {
     background-color: white;
+    padding: 15px 0 15px 0;
 }
 
 .black p {
@@ -115,6 +118,14 @@ p {
 
 .black mark {
     color: white;
+}
+
+.promobeeld {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    margin: 2rem auto 2rem auto;
 }
 
 h1.sub-title {
@@ -160,14 +171,13 @@ h1.sub-title-about {
 
 .credits {
     margin: 0 1rem 2rem 1rem;
--moz-column-count: 2;
--moz-column-gap: 20px;
--webkit-column-count: 2;
--webkit-column-gap: 20px;
-column-count: 2;
-column-gap: 20px;
-max-width: 500px;
-
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+    max-width: 500px;
 }
 
 .list-title {
@@ -196,13 +206,13 @@ li {
 
 .speeldata{
     margin: 1rem;
--moz-column-count: 2;
--moz-column-gap: 20px;
--webkit-column-count: 2;
--webkit-column-gap: 20px;
-column-count: 2;
-column-gap: 20px;
-max-width: 500px;
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+    max-width: 500px;
 }
 
 .speeldata p {
