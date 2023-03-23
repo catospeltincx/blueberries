@@ -26,7 +26,6 @@ html {
 
 body {
     margin: 0;
-    background-color: white;
 }
 
 p::-moz-selection { /* Code for Firefox */
@@ -38,6 +37,48 @@ p::selection {
     color: rgb(44, 21, 255);
     background: rgb(247, 0, 255);
 }
+
+h1::-moz-selection { /* Code for Firefox */
+    color: rgb(44, 21, 255);
+    background: rgb(248, 48, 255);
+  }
+  
+h1::selection {
+    color: rgb(44, 21, 255);
+    background: rgb(247, 0, 255);
+}
+
+li::-moz-selection { /* Code for Firefox */
+    color: rgb(44, 21, 255);
+    background: rgb(248, 48, 255);
+  }
+  
+li::selection {
+    color: rgb(44, 21, 255);
+    background: rgb(247, 0, 255);
+}
+
+ul::-moz-selection { /* Code for Firefox */
+    color: rgb(44, 21, 255);
+    background: rgb(248, 48, 255);
+  }
+  
+ul::selection {
+    color: rgb(44, 21, 255);
+    background: rgb(247, 0, 255);
+}
+
+mark::-moz-selection { /* Code for Firefox */
+    color: rgb(44, 21, 255);
+    background: rgb(248, 48, 255);
+  }
+  
+mark::selection {
+    color: rgb(44, 21, 255);
+    background: rgb(247, 0, 255);
+}
+
+
 
 mark {
     font-family: "Hobby Club Italic";
@@ -56,9 +97,12 @@ p {
     max-width: 500px;
 }
 
-
 .black {
     background-color: black;
+}
+
+.white {
+    background-color: white;
 }
 
 .black p {
@@ -78,13 +122,23 @@ h1.sub-title {
     list-style: none;
     -webkit-text-stroke: 2px solid rgb(0, 183, 255);
     width: fit-content;
-    margin: auto 0 auto 0;
     color: rgb(0, 183, 255);
-    padding: 1rem;
     font-family: "Hobby Club Italic";
-    font-size: 1.5rem;}
+    font-size: 1.5rem;
+    padding-left: 15px;
+}
 
-
+h1.sub-title-about {
+    text-align: center;
+    list-style: none;
+    -webkit-text-stroke: 2px solid rgb(0, 183, 255);
+    width: fit-content;
+    color: rgb(0, 183, 255);
+    font-family: "Hobby Club Italic";
+    font-size: 1.5rem;
+    padding-left: 15px;
+    padding-top: 15px;
+}
 
 /* DESCRIPTION */
 
@@ -96,12 +150,6 @@ h1.sub-title {
     margin-top: 0;
     margin-bottom: 2rem;
     color: rgb(0, 183, 255);
-}
-
-.promobeeld  {
-    display: block;
-    margin: 0 auto 0 auto;
-    width: 100vw;
 }
 
 /* LISTS */
@@ -155,7 +203,6 @@ li {
 column-count: 2;
 column-gap: 20px;
 max-width: 500px;
-margin-bottom: 50px;
 }
 
 .speeldata p {
@@ -169,6 +216,13 @@ margin-bottom: 50px;
 
 /* DESKTOP */
 @media screen and (min-width: 992px) {
+    .wrap {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%;
+       }
+
    .title {
     margin: 0 auto 2rem auto;
     font-size: 5rem;
@@ -179,28 +233,24 @@ margin-bottom: 50px;
     background-color: black;
    }
 
-   .promobeeld{
-    max-width: 543px;
+   .promobeeld {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin: 2rem auto 2rem auto;
    }
 
    .margin{
     height: 2rem;
    }
 
-   .text {
-    margin: 0 35% 0 35%;
-   }
-
    .speeldata, .description {
     background-color: white;
-    margin: 1rem;
    }
 
    .credits {
     padding-bottom: 20px;
    }
-
-
-
 
   }
