@@ -101,11 +101,13 @@ p {
 
 .black {
     background-color: black;
+    width: fit-content;
 }
 
 .white {
     background-color: white;
     padding: 15px 0 15px 0;
+    width: fit-content;
 }
 
 .black p {
