@@ -130,7 +130,7 @@ a.language:hover {
 
 .white {
     background-color: white;
-    padding: 15px 0 2px 0;
+    padding: 2px 0 2px 0;
     width: fit-content;
 }
 
@@ -214,6 +214,10 @@ h1.sub-title-about {
 .seasons {
     display: flex;
     flex-direction: row;
+}
+
+.season1 {
+    width: 50%;
 }
 
 .credits {
