@@ -25,56 +25,56 @@ html {
 }
 
 body {
-    margin: 0;
+    margin: 15px;
 }
 
 p::-moz-selection { /* Code for Firefox */
-    color: rgb(44, 21, 255);
+    color: rgb(255, 255, 255);
     background: rgb(248, 48, 255);
   }
   
 p::selection {
-    color: rgb(44, 21, 255);
+    color: rgb(255, 255, 255);
     background: rgb(247, 0, 255);
 }
 
 h1::-moz-selection { /* Code for Firefox */
-    color: rgb(44, 21, 255);
+    color: rgb(255, 255, 255);
     background: rgb(248, 48, 255);
   }
   
 h1::selection {
-    color: rgb(44, 21, 255);
+    color: rgb(255, 255, 255);
     background: rgb(247, 0, 255);
 }
 
 li::-moz-selection { /* Code for Firefox */
-    color: rgb(44, 21, 255);
+    color: rgb(255, 255, 255);
     background: rgb(248, 48, 255);
   }
   
 li::selection {
-    color: rgb(44, 21, 255);
+    color: rgb(255, 255, 255);
     background: rgb(247, 0, 255);
 }
 
 ul::-moz-selection { /* Code for Firefox */
-    color: rgb(44, 21, 255);
+    color: rgb(255, 255, 255);
     background: rgb(248, 48, 255);
   }
   
 ul::selection {
-    color: rgb(44, 21, 255);
+    color: rgb(255, 255, 255);
     background: rgb(247, 0, 255);
 }
 
 mark::-moz-selection { /* Code for Firefox */
-    color: rgb(44, 21, 255);
+    color: rgb(255, 255, 255);
     background: rgb(248, 48, 255);
   }
   
 mark::selection {
-    color: rgb(44, 21, 255);
+    color: rgb(255, 255, 255);
     background: rgb(247, 0, 255);
 }
 
@@ -95,6 +95,11 @@ p {
     max-width: 500px;
 }
 
+.language-button {
+    color:  rgb(247, 0, 255);
+    margin-top: 50px;
+}
+
 .name {
     -webkit-text-stroke: 1px rgb(255, 255, 255);
 }
@@ -106,7 +111,7 @@ p {
 
 .white {
     background-color: white;
-    padding: 15px 0 15px 0;
+    padding: 15px 0 2px 0;
     width: fit-content;
 }
 
@@ -120,6 +125,10 @@ p {
 
 .black mark {
     color: white;
+}
+
+.language-button {
+    
 }
 
 .promobeeld {
@@ -183,37 +192,39 @@ h1.sub-title-about {
 }
 
 .list-title {
+    margin-top: 0.5rem;
     list-style: none;
     -webkit-text-stroke: 1px rgb(255, 255, 255);
+}
+
+.seasons {
+    display: flex;
+    flex-direction: row;
 }
 
 .name {
     margin-left: 2rem;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-}
 
-li {
+.list-theater {
     text-align: left;
     font-family: "Hobby Club Regular";
     font-size: 1rem;
     line-height: 1.3rem;
     list-style: none;
     margin-left: 0.1rem;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .speeldata{
     margin: 1rem;
-    -moz-column-count: 2;
+    /* -moz-column-count: 2;
     -moz-column-gap: 20px;
     -webkit-column-count: 2;
     -webkit-column-gap: 20px;
     column-count: 2;
-    column-gap: 20px;
+    column-gap: 20px; */
     max-width: 500px;
 }
 
@@ -224,7 +235,11 @@ li {
 .speeldata .list-title {
     list-style: none;
     -webkit-text-stroke: 1px rgb(0, 0, 0);
+    font-family: "Hobby Club Regular";
+
 }
+
+
 
 /* DESKTOP */
 @media screen and (min-width: 992px) {
