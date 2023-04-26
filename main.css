@@ -228,7 +228,7 @@ flex-direction: row;
 
 .credit-title {
     -webkit-text-stroke: 1px rgb(255, 255, 255);
-    line-height: 5px;
+    line-height: 15px;
 
 }
 
