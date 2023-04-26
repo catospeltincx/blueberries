@@ -92,13 +92,30 @@ p {
     margin: 0 1rem 1rem 1rem;
     font-size: 1rem;
     line-height: 1.3rem;
-    max-width: 500px;
+    max-width: 550px;
 }
 
+.white {
+    margin: 0.5rem auto 2rem auto;
+   }
+   .black {
+    margin: 2rem auto 2rem auto;
+   }
+
 .language-button {
-    color:  rgb(247, 0, 255);
-    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
 }
+
+.language {
+    color:  rgb(247, 0, 255);
+    text-decoration: none;
+}
+
+a.language:hover {
+    text-decoration: underline;
+}
+
 
 .name {
     -webkit-text-stroke: 1px rgb(255, 255, 255);
@@ -127,17 +144,16 @@ p {
     color: white;
 }
 
-.language-button {
-    
-}
 
 .promobeeld {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 100%;
+    max-width: 585px;
     margin: 2rem auto 2rem auto;
 }
+
 
 h1.sub-title {
     text-align: center;
@@ -148,6 +164,7 @@ h1.sub-title {
     font-family: "Hobby Club Italic";
     font-size: 1.5rem;
     padding-left: 15px;
+    padding-top: 20px;
 }
 
 h1.sub-title-about {
@@ -159,7 +176,7 @@ h1.sub-title-about {
     font-family: "Hobby Club Italic";
     font-size: 1.5rem;
     padding-left: 15px;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 /* DESCRIPTION */
@@ -181,14 +198,16 @@ h1.sub-title-about {
 }
 
 .credits {
-    margin: 0 1rem 2rem 1rem;
-    -moz-column-count: 2;
-    -moz-column-gap: 20px;
-    -webkit-column-count: 2;
-    -webkit-column-gap: 20px;
-    column-count: 2;
-    column-gap: 20px;
-    max-width: 500px;
+display: flex;
+flex-direction: row;
+}
+
+.credits1 {
+    width: 50%;
+}
+
+.credits2 {
+    width: 50%;
 }
 
 .list-title {
@@ -197,15 +216,27 @@ h1.sub-title-about {
     -webkit-text-stroke: 1px rgb(255, 255, 255);
 }
 
+/* CREDITS */
 .seasons {
     display: flex;
     flex-direction: row;
 }
 
-.name {
-    margin-left: 2rem;
+.credit-group {
+    margin-bottom: 2rem;
 }
 
+.credit-title {
+    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    line-height: 5px;
+
+}
+
+.credit-name {
+    margin-left: 2rem;
+    line-height: 5px;
+    
+}
 
 .list-theater {
     text-align: left;
@@ -225,7 +256,7 @@ h1.sub-title-about {
     -webkit-column-gap: 20px;
     column-count: 2;
     column-gap: 20px; */
-    max-width: 500px;
+    max-width: 550px;
 }
 
 .speeldata p {
@@ -238,6 +269,8 @@ h1.sub-title-about {
     font-family: "Hobby Club Regular";
 
 }
+
+/* CREDITS */
 
 
 
@@ -260,13 +293,7 @@ h1.sub-title-about {
     background-color: black;
    }
 
-   .promobeeld {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    margin: 2rem auto 2rem auto;
-   }
+
 
    .margin{
     height: 2rem;
@@ -279,5 +306,7 @@ h1.sub-title-about {
    .credits {
     padding-bottom: 20px;
    }
+
+
 
   }
