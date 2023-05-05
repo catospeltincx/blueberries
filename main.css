@@ -135,7 +135,7 @@ a.language:hover {
 
 .black {
     background-color: black;
-    width: fit-content;
+    max-width: 550px;
 }
 
 .white {
@@ -203,13 +203,16 @@ h1.sub-title-about {
     color: rgb(0, 183, 255);
 }
 
+/* BIOS */
+.bio-text{
+    width: fit-content;
+}
+
 /* LISTS */
 .container-fix {
     display: flex;
     flex-direction: row;
 }
-
-
 
 .list-title {
     margin-top: 0.5rem;
@@ -268,7 +271,7 @@ h1.sub-title-about {
 }
 
 .speeldata{
-    margin: 1rem 1rem 1rem 2rem;
+    margin: 0 0 0 1rem;
     max-width: 550px;
     color: white;
 }
@@ -287,7 +290,8 @@ h1.sub-title-about {
 /* CREDITS */
 
 video {
-    max-width: 550px;
+    width: 100%;
+   
 }
 
 /* DESKTOP */
@@ -329,6 +333,10 @@ video {
 
    .credits {
     padding-bottom: 20px;
+   }
+
+   video{
+    max-width: 550px;
    }
 
 
