@@ -151,6 +151,14 @@ a.language:hover {
     text-decoration: underline;
 }
 
+.home {
+    font-family: "Hobby Club Regular";
+    font-size: 1rem;
+    line-height: 1.3rem;
+    color:  rgb(247, 0, 255);
+    margin: 0 0 0 15px;
+}
+
 
 .name {
     -webkit-text-stroke: 1px rgb(255, 255, 255);
@@ -317,6 +325,23 @@ video {
    
 }
 
+/* EDU-PAKKET */
+.iframe-wrap{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+iframe {
+    height: 100vh;
+    width: 40vw;
+    height: 580px;
+    max-width: 400px;
+    margin: 5vh 0 0 15px;
+
+}
+
 /* DESKTOP */
 @media screen and (min-width: 610px) {
 .language-button{
@@ -326,10 +351,17 @@ video {
 .edu-button{
     margin-right: 15px;
 }
+
+.iframe-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    margin: 5px;
+}
+
 }
 
 @media screen and (min-width: 992px) {
-
 
     .wrap {
         display: block;
