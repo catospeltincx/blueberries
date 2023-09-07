@@ -111,6 +111,13 @@ p {
     margin: 2rem auto 2rem auto;
    }
 
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
 .language-button {
     display: flex;
     flex-direction: row;
@@ -125,6 +132,22 @@ p {
 }
 
 a.language:hover {
+    text-decoration: underline;
+
+}
+
+.edu-button {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 5px 0 5px;
+}
+
+.edu {
+    color:  rgb(247, 0, 255);
+    text-decoration: none;
+}
+
+.edu:hover {
     text-decoration: underline;
 }
 
@@ -298,6 +321,10 @@ video {
 @media screen and (min-width: 610px) {
 .language-button{
     margin-left: 15px;
+}
+
+.edu-button{
+    margin-right: 15px;
 }
 }
 
